@@ -17,6 +17,7 @@ button {
   border-radius: 5px;
   transition: opacity 0.15s, background-color 0.15s, color 0.15s,
     box-shadow 0.15s;
+  vertical-align: top;
 }
 .subscribe:hover {
   opacity: 0.7;
@@ -43,4 +44,7 @@ button {
 }
 .tweet:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.tweet:active {
+  opacity: 0.7;
 }
